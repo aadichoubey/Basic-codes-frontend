@@ -1,5 +1,3 @@
-/* Make the page use the entire screen */
-
 html{
     height: 100%;
   }
@@ -13,9 +11,6 @@ html{
     align-items: center;
     background-color: #3a3a3a;
   }
-  
-  /* White rectangle in the middle of the screen */
-  
   #main-holder {
     width: 50%;
     height: 70%;
@@ -42,10 +37,6 @@ html{
     justify-items: center;
     align-items: center;
   }
-  
-  /* Error message. By default it's transparent, but the opacity is controlled
-  by JavaScript */
-  
   #login-error-msg {
     width: 23%;
     text-align: center;
@@ -63,11 +54,6 @@ html{
     display: block;
   }
   
-  /* -------------------------------------------------------------- */
-  
-  /* Adjust the positioning of the login form inside the last row of the
-  main grid */
-  
   #login-form {
     align-self: flex-start;
     display: grid;
@@ -75,13 +61,9 @@ html{
     align-items: center;
   }
   
-  /* Style the login form fields' placeholders */
-  
   .login-form-field::placeholder {
     color: #3a3a3a;
   }
-  
-  /* Style the login form fields (username and password) */
   
   .login-form-field {
     border: none;
@@ -91,8 +73,6 @@ html{
     outline: none;
     padding: 0px 0px 5px 5px;
   }
-  
-  /* Style the login button */
   
   #login-form-submit {
     width: 100%;
